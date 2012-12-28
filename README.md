@@ -1,5 +1,9 @@
 # FaceBook media redirect remover
 
+A fork of the original userscript, to be able to remove redirects to any application request, no matter what type
+
+Bellow the original description:
+
 This is a [UserScript](http://en.wikipedia.org/wiki/Greasemonkey) that removes 
 those annoying redirections that force you to give applications access to your data
 before you read or view the content. 

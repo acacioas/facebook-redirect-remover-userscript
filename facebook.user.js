@@ -7,7 +7,7 @@
 
 function replace_uris()
 {
-	links = document.querySelectorAll('a[href*="news.read"]');
+	links = document.querySelectorAll('a[href*="app_id"]');
 
 	for(var i=0; i<links.length; i++)
 	{
@@ -20,6 +20,7 @@ function replace_uris()
 		}
 
 		links[i].onmousedown = '';
+		links[i].rel = '';
 	}
 }
 
